@@ -15,3 +15,7 @@ if you put the script in f.e `/usr/local/bin`, as `nasbackup` (no extension) the
 - `config_file` is highly dependant on your setup. In case snapraid has issues getting the config file, this variable can be used to specify a config file path. leave empty to specify no config path
 
 - `has_docker` can be changed to either `true` or `false`. If you have running docker containers on your system, putting this to true will stop them while the the script is executed. After that, they will be started up again.
+
+## TODO
+
+- Add script for backing up stuff from Server to NAS
