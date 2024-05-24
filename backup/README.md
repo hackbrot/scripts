@@ -6,7 +6,7 @@ These scripts involve around backups. I've used these scripts for my OpenMediaVa
 
 ## How to use
 
-if you put the script in f.e `/usr/local/bin`, as `nasbackup` (no extension) then it is as easy to run `nasbackup` in your bash terminal. Alternatively just run it with `bash nasbackup.sh` It doesn't accept any arguments for now.
+if you put the script in f.e `/usr/local/bin`, as `nasbackup` (no file extension) then it is as easy to run `nasbackup` in your bash terminal. Alternatively just run it with `bash nasbackup.sh` It doesn't accept any arguments for now.
 
 ## Changeable Variables
 
@@ -16,6 +16,3 @@ if you put the script in f.e `/usr/local/bin`, as `nasbackup` (no extension) the
 
 - `has_docker` can be changed to either `true` or `false`. If you have running docker containers on your system, putting this to true will stop them while the the script is executed. After that, they will be started up again.
 
-## TODO
-
-- Add script for backing up stuff from Server to NAS
